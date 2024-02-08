@@ -1,0 +1,32 @@
+{
+    "tops":[
+        {
+            "id": 1,
+            "brand": "J. Crew",
+            "size": "M",
+            "color": "blue",
+            "style": "oxford",
+            "fit": "slim"
+        }
+    ],
+    "pants":[
+        {
+            "id": 2,
+            "brand": "J. Crew",
+            "size": "30/30",
+            "color": "black",
+            "style": "denim",
+            "fit": "straight"
+        }
+    ],
+    "shoes":[
+        {
+            "id": 3,
+            "brand": "New Balance",
+            "size": "10.5",
+            "color": "tan, grey, green",
+            "style": "sneaker",
+            "fit": "normal"
+        }
+    ]
+}
