@@ -1,16 +1,5 @@
 {
-    "jackets": [
-        {
-             "id": 4,
-             "image": "https://www.jcrew.com/s7-img-facade/BJ462_WZ2187?$crop1254$",
-             "brand": "J. Crew",
-             "size": "M",
-             "color": "black",
-             "style": "parka",
-             "fit": "N/A"
-        }
-    ],
-    "shirts":[
+    "wardrobe": [
         {
             "id": 1,
             "image": "https://www.jcrew.com/s7-img-facade/BW439_WW0699?hei=640&crop=0,0,512,0",
@@ -18,10 +7,9 @@
             "size": "M", 
             "color": "blue",
             "style": "oxford",
-            "fit": "slim"
-        }
-    ],
-    "pants":[
+            "fit": "slim",
+            "category": "shirts"
+        },
         {
             "id": 2,
             "image": "https://www.mrporter.com/variants/images/1647597292684151/in/w2000_q60.jpg",
@@ -29,10 +17,9 @@
             "size": "30/30",
             "color": "black",
             "style": "denim",
-            "fit": "straight"
-        }
-    ],
-    "shoes":[
+            "fit": "straight",
+            "category": "pants"
+        },
         {
             "id": 3,
             "image": "https://www.jcrew.com/s7-img-facade/BE878_EE2236",
@@ -40,7 +27,18 @@
             "size": "10.5",
             "color": "tan, grey, green",
             "style": "sneaker",
-            "fit": "normal"
+            "fit": "normal",
+            "category": "shoes"
+        },
+        {
+             "id": 4,
+             "image": "https://www.jcrew.com/s7-img-facade/BJ462_WZ2187?$crop1254$",
+             "brand": "J. Crew",
+             "size": "M",
+             "color": "black",
+             "style": "parka",
+             "fit": "N/A",
+             "category": "jackets"
         }
     ]
 }

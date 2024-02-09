@@ -1,9 +1,24 @@
 import App from "./App";
+import AddGarment from "./pages/AddGarment";
+import Home from "./pages/Home";
+import Wardrobe from "./pages/Wardrobe";
 
 const routes = [
     {
         path: '/',
-        element: <App />
+        element: <App />,
+    },
+    {
+        path: '/home',
+        element: <Home />
+    },
+    {
+        path: '/wardrobe',
+        element: <Wardrobe />
+    },
+    {
+        path: '/addgarment',
+        element: <AddGarment />
     }
 ]
 
