@@ -2,8 +2,9 @@
     "tops":[
         {
             "id": 1,
+            "image": "",
             "brand": "J. Crew",
-            "size": "M",
+            "size": "M", 
             "color": "blue",
             "style": "oxford",
             "fit": "slim"
@@ -12,6 +13,7 @@
     "pants":[
         {
             "id": 2,
+            "image": "",
             "brand": "J. Crew",
             "size": "30/30",
             "color": "black",
@@ -22,6 +24,7 @@
     "shoes":[
         {
             "id": 3,
+            "image": "",
             "brand": "New Balance",
             "size": "10.5",
             "color": "tan, grey, green",
