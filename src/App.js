@@ -1,3 +1,4 @@
+import { Outlet } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar';
 
@@ -7,7 +8,7 @@ function App() {
       <header>
         <NavBar />
       </header>
-      <h1>App Component</h1>
+      <Outlet />
     </>
   );
 }

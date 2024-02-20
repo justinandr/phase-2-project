@@ -1,4 +1,3 @@
-import NavBar from "../components/NavBar";
 import { useEffect, useState } from "react";
 
 function Home() {
@@ -15,9 +14,6 @@ function Home() {
 
     return(
         <>
-            <header>
-                <NavBar />
-            </header>
             <h1>Home Page</h1>
         </>
     )
