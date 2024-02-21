@@ -1,16 +1,9 @@
-import { useEffect, useState } from "react";
+import { useOutletContext } from "react-router-dom";
 
 function Home() {
 
-    const [wardrobe, setWardrobe] = useState([])
-
-    useEffect(() => {
-        fetch('http://localhost:4000/wardrobe')
-        .then(r => r.json())
-        .then(data => setWardrobe(data))
-      }, [])
-    
-      console.log(wardrobe)
+    const wardrobe = useOutletContext()
+    console.log(wardrobe)
 
     return(
         <>
