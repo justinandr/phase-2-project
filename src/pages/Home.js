@@ -2,7 +2,8 @@ import { useOutletContext } from "react-router-dom";
 
 function Home() {
 
-    const wardrobe = useOutletContext()
+    const [wardrobe] = useOutletContext()
+
     console.log(wardrobe)
 
     return(

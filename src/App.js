@@ -12,15 +12,13 @@ function App() {
         .then(r => r.json())
         .then(data => setWardrobe(data))
       }, [])
-    
-      console.log(wardrobe)
 
   return (
     <>
       <header>
         <NavBar />
       </header>
-      <Outlet context={wardrobe} />
+      <Outlet context={[wardrobe, setWardrobe]} />
     </>
   );
 }
