@@ -1,0 +1,22 @@
+.card {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+}
+
+.card-description {
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: lightcyan;
+}
+
+.card-image {
+    max-width: 400px;
+    max-height: 800px;
+    display: block;
+}
