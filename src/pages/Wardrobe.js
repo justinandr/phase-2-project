@@ -1,4 +1,5 @@
 import { useOutletContext } from "react-router-dom"
+import GarmentCard from "../components/GarmentCard"
 
 function Wardrobe() {
 
@@ -6,7 +7,7 @@ function Wardrobe() {
 
     return(
         <>
-            <h1>Wardrobe Page</h1>
+            {wardrobe.map((garment) => <GarmentCard key={garment.id} garment={garment} />)}
         </>
     )
 }

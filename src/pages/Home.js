@@ -10,7 +10,6 @@ function Home() {
     return(
         <>
             <h1>Home Page</h1>
-            {wardrobe.map((garment) => <GarmentCard key={garment.id} garment={garment} />)}
         </>
     )
 }
