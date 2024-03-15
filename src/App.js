@@ -14,12 +14,12 @@ function App() {
       }, [])
 
   return (
-    <>
+    <div className='container'>
       <header>
         <NavBar />
       </header>
       <Outlet context={[wardrobe, setWardrobe]} />
-    </>
+    </div>
   );
 }
 

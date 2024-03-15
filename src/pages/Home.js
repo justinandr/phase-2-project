@@ -1,4 +1,5 @@
 import { useOutletContext } from "react-router-dom";
+import './Home.css'
 
 function Home() {
 
@@ -7,9 +8,9 @@ function Home() {
     console.log(wardrobe)
 
     return(
-        <>
-            <h1>Home Page</h1>
-        </>
+        <div className="container">
+            <h1>Wardrobe Manager</h1>
+        </div>
     )
 }
 

@@ -1,12 +1,14 @@
 nav {
     text-align: center;
+    background-color: lightcyan;
 }
 
 .nav-link{
     display: inline-block;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 80px;
     padding-right: 80px;
+    padding-bottom: 20px;
     margin: 0 6px 6px;
     text-decoration: none;
     text-align: center;
