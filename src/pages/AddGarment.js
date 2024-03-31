@@ -1,4 +1,3 @@
-import { useOutletContext } from "react-router-dom"
 import './AddGarment.css'
 import { useState } from "react"
 
