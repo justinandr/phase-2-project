@@ -5,8 +5,6 @@ function Home() {
 
     const [wardrobe] = useOutletContext()
 
-    console.log(wardrobe)
-
     return(
         <div className="home-container">
             <h1>Welcome to Wardrobe Manager</h1>
