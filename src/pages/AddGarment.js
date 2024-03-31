@@ -32,8 +32,6 @@ function AddGarment() {
         .then(data => console.log(data))
     }
 
-    console.log(formData)
-
     return(
         <div className="container">
             <h2>New Garment</h2>
