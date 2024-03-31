@@ -1,0 +1,9 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #faf7f0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin: auto;
+}

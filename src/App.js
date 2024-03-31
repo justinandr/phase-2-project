@@ -16,7 +16,7 @@ function App() {
   return (
     <div className='container'>
       <header>
-        <NavBar />
+        <NavBar sticky />
       </header>
       <Outlet context={[wardrobe, setWardrobe]} />
     </div>

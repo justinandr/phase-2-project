@@ -8,8 +8,9 @@ function Home() {
     console.log(wardrobe)
 
     return(
-        <div className="container">
-            <h1>Wardrobe Manager</h1>
+        <div className="home-container">
+            <h1>Welcome to Wardrobe Manager</h1>
+            <p>You have {wardrobe.length} articles of clothing in your wardrobe.</p>
         </div>
     )
 }
