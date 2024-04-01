@@ -26,4 +26,19 @@ npm start
 
 ## Functionality
 
+### Home Page
+
+Displays the number of garments currently in your wardrobe
+
+### Wardrobe Page
+
+Displays each garment along with its properties
+
+### Add Garment Page
+
+Displays a form to add a new garment to your wardrobe
+
 ## Acknowledgments 
+
+- Eric Gaspar
+- Maureen Dempsey
