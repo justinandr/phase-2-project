@@ -24,7 +24,7 @@ function AddGarment() {
         fetch('http://localhost:4000/wardrobe', {
             method: 'POST',
             headers: {
-                'Content-Type': 'Application/JSON'
+                'Content-Type': 'application/json'
             },
             body: JSON.stringify(formData)
         })

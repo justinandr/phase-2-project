@@ -1,7 +1,10 @@
-h1 {
+.container {
     text-align: center;
 }
 
-.container {
+input {
+    display: block;
+    margin: auto;
+    padding: 5px;
     text-align: center;
 }
